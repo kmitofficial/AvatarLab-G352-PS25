@@ -1,3 +1,5 @@
+
+
 # ⚡️ Avatar Lab – Where AI Meets Emotion
 
 Welcome to **Avatar Lab** – the next generation of intelligent, emotionally expressive avatar animation. More than just lip-syncing, Avatar Lab combines powerful neural speech synthesis and state-of-the-art diffusion models to generate **realistic**, **emotion-aware avatars** that move, speak, and feel like real humans.
