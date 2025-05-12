@@ -1,8 +1,6 @@
-
-
 # ⚡️ Avatar Lab – Where AI Meets Emotion
 
-Welcome to **Avatar Lab** – the next generation of intelligent, emotionally expressive avatar animation. More than just lip-syncing, Avatar Lab combines powerful neural speech synthesis and state-of-the-art diffusion models to generate **realistic**, **emotion-aware avatars** that move, speak, and feel like real humans.
+Welcome to **Avatar Lab** – the next generation of intelligent, emotionally expressive avatar animation. More than just lip-syncing, Avatar Lab combines powerful neural speech synthesis and state-of-the-art animation model to generate **realistic**, **emotion-aware avatars** that move, speak, and feel like real humans.
 
 Whether you're building virtual assistants, game characters, or AI-driven content creators, Avatar Lab brings your digital personas to life.
 
@@ -29,13 +27,30 @@ Avatar Lab delivers avatars with:
 
 ## 🧬 System Architecture
 
-![Architecture](https://github.com/project-info182/Avatar-Lab/blob/fd10e54fc111c07aed8cb996bfef18a976590026/System%20Architecture.png)
+![Architecture](https://github.com/project-info182/Avatar-Lab/blob/bff0709b2070fcd5a1f21bac0176e9f4f9d9bb30/SYSTEM%20ARCHITECTURE.png)
+
+---
+
+## 🧱 Technology Stack
+
+### Frontend
+- ⚛️ React.js – Component-based UI
+- 🎨 Tailwind CSS – Responsive modern styling
+- 🔄 Redux – Efficient state management
+
+### AI & Deep Learning
+- 🧠 Zono TTS – Speech synthesis
+- 🧍‍♂️ LatentSync – Facial motion & lip-sync generation
+
+### Backend
+- 🌐 FLASK– REST API for animation pipeline
+- 🗂 MongoDB – Database for user data and animation metadata
 
 ---
 
 ## 🛠️ Workflow: From Text to Expressive Avatar
 
-![Workflow](https://github.com/project-info182/Avatar-Lab/blob/88b4fd83e925470251876aa0f5ae600440c55834/WorkFlow.png)
+![Workflow](https://github.com/project-info182/Avatar-Lab/blob/94b4663f4856a9e8b0cbef705152684d41c7a8ff/WorkFlow%20Final.png)
 
 1. Input text or audio
 2. Generate expressive speech via neural TTS
@@ -46,13 +61,15 @@ Avatar Lab delivers avatars with:
 
 ## 🛠️ Software Development Life Cycle
 
-![SDLC](https://github.com/user-attachments/assets/a18949f7-c52b-4d87-94ca-fa26906e4f53)
+### 📊 Custom SDLC: Modified Waterfall with Parallel Model Integration for AI Pipelines 🤖⚙️
+
+![SDLC](https://github.com/project-info182/Avatar-Lab/blob/main/SDLC.jpg)
 
 ---
 
 
 
-## 🔬 Models we tried 
+## 🔬 Models We Explored
 
 ### 🗣️ Speech Synthesis Models
 
@@ -74,32 +91,39 @@ These models power expressive facial motion, lip-sync, and emotional realism:
 - [**LatentSync**](https://github.com/bytedance/LatentSync) – Audio-latent space sync for expressive talking heads  
 
 ---
-### UPDATES
+## 🆕 Selected Models
 
-So after trying out multiple TTS and Diffusion-based Facial animation models, we finally decided upon 2 models.
+After evaluating several TTS and diffusion-based facial animation models, we finalized on the following two for **Avatar Lab**:
 
-   🗣️ **Speech Synthesis Model**<br>
-        &nbsp;-[**Zonos TTS**](https://github.com/Zyphra/Zonos) 
-        –  We have choosed Zonos TTS as it is a lightweight TTS engine and produces a highly realistic audio output.<br>
+### 🗣️ Speech Synthesis Model: [Zonos TTS](https://github.com/Zyphra/Zonos)
+We chose **Zonos TTS** for its lightweight architecture and natural, expressive voice synthesis.
 
-   🎥 **Diffusion-Based Facial Animation**<br>
-        &nbsp;-[**LatentSync**](https://github.com/bytedance/LatentSync) 
-        – Produces highly realistic avatars with precise lip-syncing. <br>   
+🎧 **Sample Audio Output:**  
 
-## 🧱 Technology Stack
+<p><b>🎧 Audio Preview:</b></p>
+🎧 click for output: (https://project-info182.github.io/Avatar-Lab/)
 
-### Frontend
-- ⚛️ React.js – Component-based UI
-- 🎨 Tailwind CSS – Responsive modern styling
-- 🔄 Redux – Efficient state management
 
-### AI & Deep Learning
-- 🧠 Zono TTS – Speech synthesis
-- 🧍‍♂️ LatentSync – Facial motion & lip-sync generation
+---
 
-### Backend
-- 🌐 Node.js + Express.js – REST API for animation pipeline
-- 🗂 MongoDB – Database for user data and animation metadata
+### 🎥 Diffusion-Based Facial Animation: [LatentSync](https://github.com/bytedance/LatentSync)
+We selected **LatentSync** for its highly realistic avatar generation and superior lip-sync accuracy.
+
+📹 **Sample Video Outputs:**  
+  <br>
+  **Output demo 1**
+  <br>
+  <a href="https://project-info182.github.io/Avatar-Lab/video.html">
+    <img src="https://raw.githubusercontent.com/project-info182/Avatar-Lab/main/thumbnail.png" alt="Watch the demo 1" width="300" />
+  </a>
+  <br>
+  <br>
+  **Output demo 2**
+  <br>
+  <a href="https://project-info182.github.io/Avatar-Lab/video1.html">
+    <img src="https://raw.githubusercontent.com/project-info182/Avatar-Lab/main/thumbnail1.png" alt="Watch the demo 2" width="300" height="300"/>
+  </a>
+</p>
 
 ---
 
@@ -119,13 +143,24 @@ Avatar Lab is ideal for:
 
 Here’s what’s next for Avatar Lab:
 
-✅ - 🌐 **Finalize TTS model** – Choose a TTS model which works best for us 
-- 😃 **Create Frontend for the project** – A futuristic frontend is to be designed Using Reactjs and TailWind. 
-- 🕶 **Work on backend** – Make the frontend functional.
-- 🗣 **Integrating the models with Backend** – Integrating Both models in backend to work seamlessly 
-- 🧑‍🎨 **Make a Fully Fucntional Website** – Users can now access and generate outputs interacting with the webiste.
+✅- 🌐 **Finalize TTS model** – Choose a TTS model which works best for us <br>
+✅- 🎥**Finalize Facial Animation model** – Choose a Facial Animation model which works best for us <br>
+✅- 😃 **Create Frontend for the project** – A futuristic frontend is to be designed Using Reactjs and TailWind.<br> 
+✅- 🕶 **Work on backend** – Make the frontend functional.<br>
+✅- 🗣 **Integrating the models with Backend** – Integrating Both models in backend to work seamlessly <br>
+✅- 🧑‍🎨 **Make a Fully Fucntional Website** – Users can now access and generate outputs interacting with the webiste.<br>
+  - 🚀 **Deploy the website for universal access.**
 
 ---
+
+## UPDATES
+-✅ **Working on tts integration with the frontend**.
+    Currently getting an internal server error when we pass the audio template to the TTS Model.(**resolved**)
+  Solution: we have removed the use of local paths to access audio templates in the TTS.py and instead made use of URL to access local file path and download them. 
+
+-**The prototype of the project is all done now, we are polishing and renovating the frontend.**
+
+-**We also tried to run both the models on the same port( currently the tts api is  running on port 8000 and The latentsync api is running on 6900) but we failed to do so because of conflicting model dependencies.**
 
 ## 🧠 Contribute or Collaborate
 
